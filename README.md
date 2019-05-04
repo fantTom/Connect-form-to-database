@@ -4,8 +4,8 @@
 Задача:
 Подключить форму к базе данных.
 
-Исходные материалы:
-HTML-верстка: test.zip 
+Исходные материалы:/n
+HTML-верстка: test.zip/n
 Список городов: https://github.com/Legostaev/contry_region_city 
 Список рубрик: categories.xlsx 
 
