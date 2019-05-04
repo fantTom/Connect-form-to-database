@@ -58,7 +58,7 @@ $db = new QueryDB(DatabaseConnection::connect());
                             <div class="col-12 col-md-4">
                                 <div class="form-group">
                                     <label class="form-label" for="doer-town">Город</label>
-                                    <input class="form-control input-city" type="text" id="doer-town" name="doer-town" placeholder="Введите город" list="city-list" required>
+                                    <input class="form-control input-city" type="text" autocomplete="off" id="doer-town" name="doer-town" placeholder="Введите город" list="city-list" required>
                                     <datalist id="city-list" name="city-lis"></datalist>
                                     <div class="form-validator"></div>
                                 </div>
@@ -123,7 +123,7 @@ $db = new QueryDB(DatabaseConnection::connect());
                             <div class="col-12 col-md-4">
                                 <div class="form-group">
                                     <label class="form-label" for="doer-town">Город</label>
-                                    <input class="form-control input-city" type="text" id="customer-town" name="customer-town" placeholder="Введите город" list="city-list" required>
+                                    <input class="form-control input-city" type="text" autocomplete="off" id="customer-town" name="customer-town" placeholder="Введите город" list="city-list" required>
                                     <div class="form-validator"></div>
                                 </div>
                             </div>
@@ -190,6 +190,7 @@ $db = new QueryDB(DatabaseConnection::connect());
 <script type="text/javascript" src="js/mail-validator.js"></script>
 <script type="text/javascript" src="js/phone-validator.js"></script>
 <script type="text/javascript" src="js/search-city.js"></script>
+<script type="text/javascript" src="js/city-validator.js"></script>
 <script type="text/javascript" src="js/search-categories.js"></script>
 <script type="text/javascript" src="js/submit-form.js"></script>
 </body>
